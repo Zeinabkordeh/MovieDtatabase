@@ -1,0 +1,6 @@
+function FavButton({  }){
+    return (
+        <>
+        </>
+    )
+}

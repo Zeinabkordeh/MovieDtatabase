@@ -1,0 +1,48 @@
+{
+  "name": "movie-database",
+  "authors": "Taylor Andrew Bruce Zeinab",
+  "homepage": "https://devmonkey.ca/tabz-movies",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@babel/runtime": "^7.23.1",
+    "@reduxjs/toolkit": "^1.9.7",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-redux": "^8.1.2",
+    "react-scripts": "5.0.1",
+    "swiper": "^10.3.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@babel/core": "^7.23.0",
+    "babel-loader": "^9.1.3",
+    "react-router-dom": "^6.15.0",
+    "tailwindcss": "^3.3.3"
+  },
+  "tags": [
+    "swiper"
+  ]
+}

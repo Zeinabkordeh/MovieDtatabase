@@ -1,0 +1,268 @@
+.image-container {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  grid-column: 2;
+}
+
+
+.single-poster {
+  max-width: 280px;
+  border-radius: 1rem;
+  position: absolute;
+  display: none;
+}
+
+.single-backdrop {
+  width: 100%;
+  position: relative;
+  z-index: -1;
+}
+
+.single-info {
+  color: white;
+}
+
+.single-description {
+  position: relative;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin: 0 0 2rem 0;
+}
+
+.overview-title {
+  margin: 1rem;
+}
+
+.overview-text {
+  font-size: .9rem;
+  text-align: center;
+  padding: .5rem 0;
+}
+
+.single-description h1 {
+  font-size: 1.5rem;
+  margin-bottom: 0;
+  padding: 1rem;
+  text-align: center;
+}
+
+.single-detail {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 0 1rem;
+}
+
+.overview-text {
+  margin: 0 2rem;
+}
+
+
+.trailer-sec {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-right: 1rem;
+}
+
+.trailer-sec svg {
+  padding-right: 0;
+  margin-right: 0.5rem;
+}
+
+.single-detail {
+  padding: .5rem 1.5rem;
+  font-size: .9rem;
+}
+
+.single-detail a {
+  font-size: .9rem;
+  padding-left: 1rem;
+}
+
+.movie-extra-info {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  padding-top: .5rem;
+}
+
+.genre-container {
+  padding-left: .5rem;
+}
+
+
+@media screen and (min-width: 50rem) {
+  .single-poster {
+    display: block;
+    position: absolute;
+    top: -28rem;
+    max-width: 279px;
+  }
+
+  .single-description {
+    grid-column: 3;
+    position: inherit;
+    justify-content: left;
+  }
+
+  .single-backdrop {
+    filter: brightness(10%);
+    filter: blur(100%);
+  }
+
+
+  .overview-text {
+    margin: 0 6rem;
+  }
+}
+
+@media screen and (min-width: 65rem) {
+
+  .overview-text {
+    margin: 0;
+    text-align: center;
+  }
+
+  .single-detail {
+    padding: 0;
+  }
+
+  .overview-title {
+    margin-left: 0;
+  }
+
+  .single-backdrop {
+    position: relative;
+    max-height: 600px;
+  }
+
+  .single-poster {
+    top: -32rem;
+    position: absolute;
+  }
+
+  .single-description {
+    grid-column: 3;
+    position: relative;
+    top: -31rem;
+    justify-content: left;
+    align-items: start;
+    padding-left: 5rem;
+  }
+
+  .single-description p {
+    text-align: left;
+    font-size: 1rem;
+    text-align: justify;
+  }
+
+  .single-description h1 {
+    font-size: 2rem;
+    padding: 0;
+  }
+
+}
+
+
+
+.casts-list {
+  display: flex;
+  padding-inline-start: 0 !important;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 100%;
+  position: relative;
+  color: white;
+  font-size: .8rem;
+  list-style: none;
+  margin-bottom: 2rem;
+}
+
+.cast-info {
+  display: flex;
+  width: 6rem;
+  margin: .5rem;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 2px 8px rgba(255, 255, 255, 0.292);
+  border: gray 1px solid;
+  border-radius: 1rem;
+  flex-direction: column;
+}
+
+.casts-list img {
+  width: 100%;
+  position: relative;
+  border-radius: 1rem 1rem 0 0;
+  bottom: 0;
+}
+
+.casts-list p {
+  height: 2rem;
+  font-size: 0.7rem;
+  text-align: center;
+  padding: .3rem 0;
+}
+
+@media screen and (min-width: 35rem) {
+  .cast-info {
+    width: 9rem;
+    margin: .5rem;
+  }
+
+  .casts-list {
+    font-size: .8rem;
+    /* top: 30rem; */
+  }
+
+}
+
+
+@media screen and (min-width: 65rem) {
+
+  .single-info {
+    display: grid;
+    grid-template-columns: 1fr 1.5fr 3.5fr 1fr;
+    position: absolute;
+  }
+
+  .cast-info {
+    width: 9rem;
+  }
+
+  .casts-list {
+    min-width: 100%;
+    flex-direction: row;
+    justify-content: right;
+    justify-content: right;
+    right: 5rem;
+    top: -4rem;
+  }
+
+  .casts-list img {
+    display: flex;
+    position: relative;
+    min-width: 100%;
+  }
+
+
+}
+
+.arrow-back svg {
+  display: flex;
+  position: absolute;
+  max-width: 3rem;
+  fill: rgb(237 237 237);
+  margin: 1rem;
+  top: 6rem;
+  stroke-width: 0.1rem;
+  stroke: #d5d5d5;
+}

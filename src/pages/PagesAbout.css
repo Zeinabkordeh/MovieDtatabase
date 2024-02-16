@@ -1,0 +1,43 @@
+.about-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.about-content {
+  color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+  max-width: 800px;
+  text-align: left;
+}
+
+.about-title {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.about-description {
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.attribution {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.tmdb-logo {
+  max-width: 80px;
+  margin-right: 10px;
+}
+
+.tmdb-attribution {
+  font-size: 14px;
+  color: #fff;
+}

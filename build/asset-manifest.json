@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/tabz-movies/static/css/main.42dc7a3d.css",
+    "main.js": "/tabz-movies/static/js/main.16b9d23c.js",
+    "static/media/logo1.png": "/tabz-movies/static/media/logo1.0da6a222e2aa7b09acb5.png",
+    "index.html": "/tabz-movies/index.html",
+    "main.42dc7a3d.css.map": "/tabz-movies/static/css/main.42dc7a3d.css.map",
+    "main.16b9d23c.js.map": "/tabz-movies/static/js/main.16b9d23c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.42dc7a3d.css",
+    "static/js/main.16b9d23c.js"
+  ]
+}
